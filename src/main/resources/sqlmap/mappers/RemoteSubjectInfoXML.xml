@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.iscreamedu.test.api.student.mapper.remote.RSubjectMapper">
+
+    <select id="getRSubjectList" resultType="com.iscreamedu.test.api.student.domain.Subject">
+        select * from lrndmt.mt_dm_subj;
+    </select>
+
+</mapper>
