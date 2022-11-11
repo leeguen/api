@@ -18,9 +18,9 @@ public class SubjectController {
 
 
 
-    @GetMapping("r")
-    public List<Subject> getRSubjectList(){
-        return subjectService.getRSubjectList();
+    @GetMapping
+    public List<Subject> getSubjectList(){
+        return subjectService.getSubjectList();
     }
 
 

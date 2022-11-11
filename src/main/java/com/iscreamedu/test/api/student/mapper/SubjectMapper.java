@@ -1,4 +1,4 @@
-package com.iscreamedu.test.api.student.mapper.remote;
+package com.iscreamedu.test.api.student.mapper;
 
 import com.iscreamedu.test.api.student.domain.Subject;
 import org.apache.ibatis.annotations.Mapper;
@@ -6,8 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public interface RSubjectMapper {
+public interface SubjectMapper {
 
-    List<Subject> getRSubjectList();
-
+    List<Subject> getSubjectList();
 }

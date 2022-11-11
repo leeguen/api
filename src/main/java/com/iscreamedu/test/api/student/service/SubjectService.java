@@ -7,7 +7,7 @@ import java.util.Map;
 
 public interface SubjectService {
 
-    public List<Subject> getRSubjectList();
+    public List<Subject> getSubjectList();
 
 
 
